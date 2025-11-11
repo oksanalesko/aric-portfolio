@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/Satoshi-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Satoshi-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Gambetta-LightItalic.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Chillax-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Chillax-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Blog</title>
+		<script type="module" crossorigin="" src="./js/app.min.js?v=1762879105343"></script>
+		<script type="module" crossorigin="" src="./js/showmore.min.js?v=1762879105343"></script>
+		<script type="module" crossorigin="" src="./js/ctablock.min.js?v=1762879105343"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1762879105343">
+		<link rel="stylesheet" crossorigin="" href="./css/showmore.min.css?v=1762879105343">
+		<link rel="stylesheet" crossorigin="" href="./css/ctablock.min.css?v=1762879105343">
+		<link rel="stylesheet" crossorigin="" href="./css/blog.min.css?v=1762879105343">
+		<link rel="stylesheet" crossorigin="" href="./css/previewblog.min.css?v=1762879105343">
+		<link rel="stylesheet" crossorigin="" href="./css/noise.min.css?v=1762879105343">
+		<link rel="stylesheet" crossorigin="" href="./css/borderitem.min.css?v=1762879105343">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="100" data-fls-header-scroll-show="800" class="header">
+				<div class="header__container">
+					<div class="header__body">
+						<div class="header__logo-wrapper">
+							<a href="index.html" class="header__logo">
+								<img src="./assets/img/logo.svg" alt="Logo">
+							</a>
+						</div>
+						<div class="header__menu menu">
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="services.html" class="menu__link">Services</a>
+									</li>
+									<li class="menu__item">
+										<a href="work.html" class="menu__link">Work</a>
+									</li>
+									<li class="menu__item">
+										<a href="about.html" class="menu__link">About</a>
+									</li>
+									<li class="menu__item">
+										<a href="blog.html" class="menu__link menu__link--active">Blog</a>
+									</li>
+									<li class="menu__item">
+										<a href="pricing.html" class="menu__link">Pricing</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<!--
+<fetch url="@components/layout/menu/menu.js?v=1762879105343on">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+						<a href="contact.html" data-fls-button="" class="header__button button button--light">Let’s talk</a>
+						<button type="button" data-fls-menu="" class="header__menu-icon icon-menu">
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</header>
+			<main class="page page--blog">
+				<section class="page__hero-blog hero-blog">
+					<div class="hero-blog__container">
+						<div data-fls-blockheader="" class="hero-blog__block-header block-header">
+							<h1 data-fls-watcher="" data-fls-watcher-once="" class="block-header__title">Blog</h1>
+							<div data-fls-watcher="" data-fls-watcher-once="" class="block-header__text">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor lorem.
+								</p>
+							</div>
+						</div>
+						<div data-fls-showmore="items" class="hero-blog__list">
+							<ul data-fls-showmore-content="2" class="hero-blog__items">
+								<li data-fls-previewblog="" data-fls-borderitem="" class="preview-blog">
+									<article class="preview-blog__article">
+										<a data-fls-noise="" href="single-post.html" class="preview-blog__link-image --icon-arrow --icon-arrow-ur">
+											<picture>
+												<img class="preview-blog__image" alt="Blog Image" src="./assets/img/blog/01.webp">
+											</picture>
+										</a>
+										<div class="preview-blog__content">
+											<time class="preview-blog__date" datetime="2023-08-23">23rd Aug 2023</time>
+											<h4 data-fls-watcher="" data-fls-watcher-once="" class="preview-blog__title">
+												<a href="single-post.html" class="preview-blog__link-title">How to Build a Stunning Website with Framer</a>
+											</h4>
+											<div class="preview-blog__text">
+												<p>
+													Learn how to create an impressive website using Framer with our step-by-step guide.
+												</p>
+											</div>
+										</div>
+										<a href="single-post.html" data-fls-button="" class="preview-blog__category button button--small">WebDesign</a>
+									</article>
+								</li>
+								<li data-fls-previewblog="" data-fls-borderitem="" class="preview-blog">
+									<article class="preview-blog__article">
+										<a data-fls-noise="" href="single-post.html" class="preview-blog__link-image --icon-arrow --icon-arrow-ur">
+											<picture>
+												<img class="preview-blog__image" alt="Blog Image" src="./assets/img/blog/02.webp">
+											</picture>
+										</a>
+										<div class="preview-blog__content">
+											<time class="preview-blog__date" datetime="2023-08-23">23rd Aug 2023</time>
+											<h4 data-fls-watcher="" data-fls-watcher-once="" class="preview-blog__title">
+												<a href="single-post.html" class="preview-blog__link-title">10 website elements for maximum user engagement</a>
+											</h4>
+											<div class="preview-blog__text">
+												<p>
+													10 website elements to engage users, from intuitive navigation to compelling visuals.
+												</p>
+											</div>
+										</div>
+										<a href="single-post.html" data-fls-button="" class="preview-blog__category button button--small">Development</a>
+									</article>
+								</li>
+								<li data-fls-previewblog="" data-fls-borderitem="" class="preview-blog">
+									<article class="preview-blog__article">
+										<a data-fls-noise="" href="single-post.html" class="preview-blog__link-image --icon-arrow --icon-arrow-ur">
+											<picture>
+												<img class="preview-blog__image" alt="Blog Image" src="./assets/img/blog/03.webp">
+											</picture>
+										</a>
+										<div class="preview-blog__content">
+											<time class="preview-blog__date" datetime="2023-08-23">23rd Aug 2023</time>
+											<h4 data-fls-watcher="" data-fls-watcher-once="" class="preview-blog__title">
+												<a href="single-post.html" class="preview-blog__link-title">The importance of content in driving website traffic</a>
+											</h4>
+											<div class="preview-blog__text">
+												<p>Quality content is king. Learn how to create valuable, SEO-optimized content.</p>
+											</div>
+										</div>
+										<a href="single-post.html" data-fls-button="" class="preview-blog__category button button--small">content &amp; SEO</a>
+									</article>
+								</li>
+								<li data-fls-previewblog="" data-fls-borderitem="" class="preview-blog">
+									<article class="preview-blog__article">
+										<a data-fls-noise="" href="single-post.html" class="preview-blog__link-image --icon-arrow --icon-arrow-ur">
+											<picture>
+												<img class="preview-blog__image" alt="Blog Image" src="./assets/img/blog/04.webp">
+											</picture>
+										</a>
+										<div class="preview-blog__content">
+											<time class="preview-blog__date" datetime="2023-08-23">23rd Aug 2023</time>
+											<h4 data-fls-watcher="" data-fls-watcher-once="" class="preview-blog__title">
+												<a href="single-post.html" class="preview-blog__link-title">10 common web development mistakes to avoid</a>
+											</h4>
+											<div class="preview-blog__text">
+												<p>
+													10 common web development mistakes and improve your sites functionality and user experience.
+												</p>
+											</div>
+										</div>
+										<a href="single-post.html" data-fls-button="" class="preview-blog__category button button--small">Development</a>
+									</article>
+								</li>
+								<li data-fls-previewblog="" data-fls-borderitem="" class="preview-blog">
+									<article class="preview-blog__article">
+										<a data-fls-noise="" href="single-post.html" class="preview-blog__link-image --icon-arrow --icon-arrow-ur">
+											<picture>
+												<img class="preview-blog__image" alt="Blog Image" src="./assets/img/blog/05.webp">
+											</picture>
+										</a>
+										<div class="preview-blog__content">
+											<time class="preview-blog__date" datetime="2023-08-23">23rd Aug 2023</time>
+											<h4 data-fls-watcher="" data-fls-watcher-once="" class="preview-blog__title">
+												<a href="single-post.html" class="preview-blog__link-title">Why responsive web design is critical for your business</a>
+											</h4>
+											<div class="preview-blog__text">
+												<p>
+													Responsive web design ensures your site looks great and performs well on all devices.
+												</p>
+											</div>
+										</div>
+										<a href="single-post.html" data-fls-button="" class="preview-blog__category button button--small">WebDesign</a>
+									</article>
+								</li>
+								<li data-fls-previewblog="" data-fls-borderitem="" class="preview-blog">
+									<article class="preview-blog__article">
+										<a data-fls-noise="" href="single-post.html" class="preview-blog__link-image --icon-arrow --icon-arrow-ur">
+											<picture>
+												<img class="preview-blog__image" alt="Blog Image" src="./assets/img/blog/06.webp">
+											</picture>
+										</a>
+										<div class="preview-blog__content">
+											<time class="preview-blog__date" datetime="2023-08-23">23rd Aug 2023</time>
+											<h4 data-fls-watcher="" data-fls-watcher-once="" class="preview-blog__title">
+												<a href="single-post.html" class="preview-blog__link-title">The art of SEO writing: How to write content that ranks on Google</a>
+											</h4>
+											<div class="preview-blog__text">
+												<p>
+													Optimize your website with expert tips on writing content that ranks high on Google.
+												</p>
+											</div>
+										</div>
+										<a href="single-post.html" data-fls-button="" class="preview-blog__category button button--small">content &amp; SEO</a>
+									</article>
+								</li>
+								<li data-fls-previewblog="" data-fls-borderitem="" class="preview-blog">
+									<article class="preview-blog__article">
+										<a data-fls-noise="" href="single-post.html" class="preview-blog__link-image --icon-arrow --icon-arrow-ur">
+											<picture>
+												<img class="preview-blog__image" alt="Blog Image" src="./assets/img/blog/01.webp">
+											</picture>
+										</a>
+										<div class="preview-blog__content">
+											<time class="preview-blog__date" datetime="2023-08-23">23rd Aug 2023</time>
+											<h4 data-fls-watcher="" data-fls-watcher-once="" class="preview-blog__title">
+												<a href="single-post.html" class="preview-blog__link-title">How to Build a Stunning Website with Framer</a>
+											</h4>
+											<div class="preview-blog__text">
+												<p>
+													Learn how to create an impressive website using Framer with our step-by-step guide.
+												</p>
+											</div>
+										</div>
+										<a href="single-post.html" data-fls-button="" class="preview-blog__category button button--small">WebDesign</a>
+									</article>
+								</li>
+								<li data-fls-previewblog="" data-fls-borderitem="" class="preview-blog">
+									<article class="preview-blog__article">
+										<a data-fls-noise="" href="single-post.html" class="preview-blog__link-image --icon-arrow --icon-arrow-ur">
+											<picture>
+												<img class="preview-blog__image" alt="Blog Image" src="./assets/img/blog/02.webp">
+											</picture>
+										</a>
+										<div class="preview-blog__content">
+											<time class="preview-blog__date" datetime="2023-08-23">23rd Aug 2023</time>
+											<h4 data-fls-watcher="" data-fls-watcher-once="" class="preview-blog__title">
+												<a href="single-post.html" class="preview-blog__link-title">10 website elements for maximum user engagement</a>
+											</h4>
+											<div class="preview-blog__text">
+												<p>
+													10 website elements to engage users, from intuitive navigation to compelling visuals.
+												</p>
+											</div>
+										</div>
+										<a href="single-post.html" data-fls-button="" class="preview-blog__category button button--small">Development</a>
+									</article>
+								</li>
+								<li data-fls-previewblog="" data-fls-borderitem="" class="preview-blog">
+									<article class="preview-blog__article">
+										<a data-fls-noise="" href="single-post.html" class="preview-blog__link-image --icon-arrow --icon-arrow-ur">
+											<picture>
+												<img class="preview-blog__image" alt="Blog Image" src="./assets/img/blog/03.webp">
+											</picture>
+										</a>
+										<div class="preview-blog__content">
+											<time class="preview-blog__date" datetime="2023-08-23">23rd Aug 2023</time>
+											<h4 data-fls-watcher="" data-fls-watcher-once="" class="preview-blog__title">
+												<a href="single-post.html" class="preview-blog__link-title">The importance of content in driving website traffic</a>
+											</h4>
+											<div class="preview-blog__text">
+												<p>Quality content is king. Learn how to create valuable, SEO-optimized content.</p>
+											</div>
+										</div>
+										<a href="single-post.html" data-fls-button="" class="preview-blog__category button button--small">content &amp; SEO</a>
+									</article>
+								</li>
+								<li data-fls-previewblog="" data-fls-borderitem="" class="preview-blog">
+									<article class="preview-blog__article">
+										<a data-fls-noise="" href="single-post.html" class="preview-blog__link-image --icon-arrow --icon-arrow-ur">
+											<picture>
+												<img class="preview-blog__image" alt="Blog Image" src="./assets/img/blog/04.webp">
+											</picture>
+										</a>
+										<div class="preview-blog__content">
+											<time class="preview-blog__date" datetime="2023-08-23">23rd Aug 2023</time>
+											<h4 data-fls-watcher="" data-fls-watcher-once="" class="preview-blog__title">
+												<a href="single-post.html" class="preview-blog__link-title">10 common web development mistakes to avoid</a>
+											</h4>
+											<div class="preview-blog__text">
+												<p>
+													10 common web development mistakes and improve your sites functionality and user experience.
+												</p>
+											</div>
+										</div>
+										<a href="single-post.html" data-fls-button="" class="preview-blog__category button button--small">Development</a>
+									</article>
+								</li>
+								<li data-fls-previewblog="" data-fls-borderitem="" class="preview-blog">
+									<article class="preview-blog__article">
+										<a data-fls-noise="" href="single-post.html" class="preview-blog__link-image --icon-arrow --icon-arrow-ur">
+											<picture>
+												<img class="preview-blog__image" alt="Blog Image" src="./assets/img/blog/05.webp">
+											</picture>
+										</a>
+										<div class="preview-blog__content">
+											<time class="preview-blog__date" datetime="2023-08-23">23rd Aug 2023</time>
+											<h4 data-fls-watcher="" data-fls-watcher-once="" class="preview-blog__title">
+												<a href="single-post.html" class="preview-blog__link-title">Why responsive web design is critical for your business</a>
+											</h4>
+											<div class="preview-blog__text">
+												<p>
+													Responsive web design ensures your site looks great and performs well on all devices.
+												</p>
+											</div>
+										</div>
+										<a href="single-post.html" data-fls-button="" class="preview-blog__category button button--small">WebDesign</a>
+									</article>
+								</li>
+								<li data-fls-previewblog="" data-fls-borderitem="" class="preview-blog">
+									<article class="preview-blog__article">
+										<a data-fls-noise="" href="single-post.html" class="preview-blog__link-image --icon-arrow --icon-arrow-ur">
+											<picture>
+												<img class="preview-blog__image" alt="Blog Image" src="./assets/img/blog/06.webp">
+											</picture>
+										</a>
+										<div class="preview-blog__content">
+											<time class="preview-blog__date" datetime="2023-08-23">23rd Aug 2023</time>
+											<h4 data-fls-watcher="" data-fls-watcher-once="" class="preview-blog__title">
+												<a href="single-post.html" class="preview-blog__link-title">The art of SEO writing: How to write content that ranks on Google</a>
+											</h4>
+											<div class="preview-blog__text">
+												<p>
+													Optimize your website with expert tips on writing content that ranks high on Google.
+												</p>
+											</div>
+										</div>
+										<a href="single-post.html" data-fls-button="" class="preview-blog__category button button--small">content &amp; SEO</a>
+									</article>
+								</li>
+							</ul>
+							<div class="hero-blog__button">
+								<button hidden data-fls-showmore-button="1000" type="button" data-fls-button="" class="button">
+									<span>Show more</span>
+									<span>Hide</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<aside data-fls-ctablock="" class="page__cta cta">
+				<div data-fls-marquee="" data-fls-marquee-speed="80" data-fls-marquee-space="32" data-fls-borderitem="" class="cta__line line-cta">
+					<div class="line-cta__item">Let’s talk</div>
+					<div class="line-cta__item">+++</div>
+				</div>
+				<section class="cta__body">
+					<div class="cta__container">
+						<div data-fls-blockheader="" class="cta__block-header block-header block-header--gap-8">
+							<span data-fls-watcher="" data-fls-watcher-once="" class="block-header__label">Project in mind?</span>
+							<h2 data-fls-watcher="" data-fls-watcher-once="" class="block-header__title">
+								Let’s make your
+								<span>Website shine</span>
+							</h2>
+							<div data-fls-watcher="" data-fls-watcher-once="" class="block-header__text">
+								<p>Premium web design, webflow, and SEO services to help your business stand out.</p>
+							</div>
+						</div>
+						<a href="contact.html" data-fls-button="" class="cta__button button button--light button--arrow button--icon-arrow button--icon-arrow-ur">Get in touch</a>
+					</div>
+				</section>
+			</aside>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<div class="footer__body body-footer">
+						<div class="body-footer__content content-footer">
+							<a href="index.html" class="content-footer__link-logo">
+								<img class="content-footer__logo" src="./assets/img/logo.svg" alt="Image">
+							</a>
+							<ul data-fls-social="" class="content-footer__social social social--text">
+								<li class="social__item">
+									<a href="#" target="_blank" aria-label="social link" class="social__link social__link--icon-instagram">Instagram</a>
+								</li>
+								<li class="social__item">
+									<a href="#" target="_blank" aria-label="social link" class="social__link social__link--icon-twitter">Twitter</a>
+								</li>
+								<li class="social__item">
+									<a href="#" target="_blank" aria-label="social link" class="social__link social__link--icon-dribble">Dribbble</a>
+								</li>
+								<li class="social__item">
+									<a href="#" target="_blank" aria-label="social link" class="social__link social__link--icon-bh">Behance</a>
+								</li>
+							</ul>
+						</div>
+						<nav data-fls-spollers="767.98" class="body-footer__nav">
+							<details class="body-footer__menu">
+								<summary>
+									<h5 class="body-footer__title">Pages</h5>
+								</summary>
+								<ul class="body-footer__list">
+									<li class="body-footer__item">
+										<a href="index.html" class="body-footer__link">Home</a>
+									</li>
+									<li class="body-footer__item">
+										<a href="services.html" class="body-footer__link">Services</a>
+									</li>
+									<li class="body-footer__item">
+										<a href="about.html" class="body-footer__link">About</a>
+									</li>
+									<li class="body-footer__item">
+										<a href="contact.html" class="body-footer__link">Contact</a>
+									</li>
+								</ul>
+								<a href="work.html" data-fls-button="" class="body-footer__button button button--light button--arrow button--icon-arrow button--icon-arrow-ur">More Templates</a>
+							</details>
+							<details class="body-footer__menu">
+								<summary>
+									<h5 class="body-footer__title">CMS</h5>
+								</summary>
+								<ul class="body-footer__list">
+									<li class="body-footer__item">
+										<a href="work.html" class="body-footer__link">Work</a>
+									</li>
+									<li class="body-footer__item">
+										<a href="work-single.html" class="body-footer__link">Work Single</a>
+									</li>
+									<li class="body-footer__item">
+										<a href="blog.html" class="body-footer__link">Blog</a>
+									</li>
+									<li class="body-footer__item">
+										<a href="single-post.html" class="body-footer__link">Blog Post</a>
+									</li>
+								</ul>
+							</details>
+							<details class="body-footer__menu">
+								<summary>
+									<h5 class="body-footer__title">Utility Pages</h5>
+								</summary>
+								<ul class="body-footer__list">
+									<li class="body-footer__item">
+										<a href="404.html" class="body-footer__link">404 Error Page</a>
+									</li>
+									<li class="body-footer__item">
+										<a href="privacy.html" class="body-footer__link">Password Protected</a>
+									</li>
+									<li class="body-footer__item">
+										<a href="privacy.html" class="body-footer__link">Styleguide</a>
+									</li>
+									<li class="body-footer__item">
+										<a href="privacy.html" class="body-footer__link">Licensing</a>
+									</li>
+									<li class="body-footer__item">
+										<a href="privacy.html" class="body-footer__link">Changelog</a>
+									</li>
+								</ul>
+							</details>
+						</nav>
+					</div>
+					<div class="footer__bottom bottom-footer">
+						<div class="bottom-footer__copyright">
+							© 2025 Designed by
+							<a href="https://www.gola.supply/templates/arik">Pawel Gola</a>
+							. Developed by
+							<a href="https://www.linkedin.com/in/oksana-lesko/">San`kaLsk</a>
+						</div>
+						<button type="button" data-fls-button="" data-fls-scrollto=".page" class="bottom-footer__up text-button text-button--big text-button--up text-button--icon-arrow">to top</button>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
